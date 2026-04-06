@@ -3,39 +3,52 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Said LAACHIR | Cybersecurity Enthusiast</title>
+  <title>Said LAACHIR | Cybersecurity Engineer</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <header>
-    <h1>Madmax</h1>
-    <p class="subtitle">Cybersecurity Enthusiast</p>
-    <button id="toggle-theme">🌙</button>
+  <button id="theme-toggle" class="theme-btn">
+  <span class="icon">🌙</span>
+</button>
+
+  <!-- HERO -->
+  <header class="hero">
+    <img src="assets/profPic.jpg" alt="Profile Picture" class="profile-pic"/>
+
+    <h1 class="fade-in">Madmax</h1>
+    <p class="subtitle fade-in delay">Aspiring Cybersecurity Engineer</p>
   </header>
 
-  <section class="about">
+  <!-- ABOUT -->
+  <section class="about fade-in delay-2">
     <h2>About Me</h2>
     <p>
       Élève-ingénieur en Réseaux et Sécurité Informatique passionné par le Cloud, la cryptographie et les systèmes distribués. Leader associatif (Club SECORA) et développeur polyvalent, je conçois des solutions sécurisées, des communications LAN jusqu'aux infrastructures AWS. Toujours en veille technologique et à la recherche d'un stage pour transformer ma passion en impact professionnel.
     </p>
   </section>
 
-  <section class="quote">
+  <!-- QUOTE -->
+  <section class="quote fade-in delay-3">
     <blockquote>
-      “Security is not a product, but a process.”
+      “Only amateurs attack machines; professionals target people.”
     </blockquote>
     <span>- Bruce Schneier</span>
   </section>
 
-  <section class="cv">
+  <!-- CV -->
+  <section class="cv fade-in delay-4">
     <h2>My CV</h2>
 
-    <iframe src="cv.pdf" class="cv-frame"></iframe>
+    <iframe src="/assets/cv.pdf" class="cv-frame"></iframe>
 
-    <a href="cv.pdf" download class="download-btn">Download CV</a>
+    <a href="/assets/cv.pdf" download class="download-btn">Download CV</a>
   </section>
 
-</body>
 <script src="script.js"></script>
+</body>
 </html>
